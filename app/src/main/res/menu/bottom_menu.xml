@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_news"
+        android:title="News" />
+    <item
+        android:id="@+id/navigation_match_center"
+        android:icon="@drawable/ic_match"
+        android:title="Match Center" />
+    <item
+        android:id="@+id/navigation_clubs"
+        android:icon="@drawable/ic_club"
+        android:title="Clubs" />
+</menu>

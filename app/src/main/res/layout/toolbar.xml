@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:layout_margin="15dp"
+        android:src="@drawable/splash_logo_white"
+        android:id="@+id/toolbar_ivAppLogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:tint="#fff" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#fff"
+            android:text="FOOTBALL ALIVE"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_action_name"
+        android:id="@+id/toolbar_ivUserAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:tint="#fff" />
+</LinearLayout>
