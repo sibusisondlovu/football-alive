@@ -5,6 +5,10 @@
         android:icon="@drawable/ic_news"
         android:title="News" />
     <item
+        android:id="@+id/navigation_live_tv"
+        android:icon="@drawable/ic_match"
+        android:title="Live TV" />
+    <item
         android:id="@+id/navigation_match_center"
         android:icon="@drawable/ic_match"
         android:title="Match Center" />

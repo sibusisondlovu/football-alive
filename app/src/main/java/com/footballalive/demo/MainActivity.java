@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.footballalive.demo.fragments.ClubsFragment;
+import com.footballalive.demo.fragments.LiveMatchFragment;
 import com.footballalive.demo.fragments.MatchCenterFragment;
 import com.footballalive.demo.fragments.NewsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -40,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()){
                     case R.id.navigation_news:
                         fragment = new NewsFragment();
+                        break;
+
+                    case R.id.navigation_live_tv:
+                        fragment = new LiveMatchFragment();
                         break;
 
                     case R.id.navigation_match_center:
